@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; worker-src 'self' blob:;"
+  >
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NeuroSense AI</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">N</div>
+        <div>
+          <h2>NeuroSense AI</h2>
+          <small>Human Signal Companion</small>
+        </div>
+      </div>
+
+      <div id="status" class="status">
+        ● Disconnected
+      </div>
+    </header>
+
+    <main>
+
+      <section class="welcome">
+        <h1>Understand your moment.</h1>
+        <p>
+          Real-time human signals. Meaningful wellness experiences.
+        </p>
+      </section>
+
+      <section class="consent">
+        <label>
+          <input type="checkbox" id="consent">
+          I consent to camera access for live signal
+          measurement. I understand that measurements
+          are informational and not medical advice.
+        </label>
+      </section>
+
+      <section class="camera-card">
+
+        <div class="section-heading">
+          <h3>Camera monitoring</h3>
+          <span id="cameraStatus">Camera inactive</span>
+        </div>
+
+        <video
+          id="camera"
+          autoplay
+          muted
+          playsinline
+        ></video>
+
+        <div class="controls">
+          <button id="startBtn">
+            Start session
+          </button>
+
+          <button id="stopBtn" disabled>
+            Stop session
+          </button>
+        </div>
+
+        <p id="hint">
+          Give consent and start a session.
+        </p>
+
+      </section>
+
+      <section class="metrics">
+
+        <div class="metric-card">
+          <span>Pulse rate</span>
+          <h1 id="pulse">--</h1>
+          <small>BPM</small>
+        </div>
+
+        <div class="metric-card">
+          <span>Breathing rate</span>
+          <h1 id="breathing">--</h1>
+          <small>Breaths/min</small>
+        </div>
+
+      </section>
+
+      <section class="insights">
+        <h3>Session insights</h3>
+        <p id="insight">
+          Your live measurements will appear here.
+        </p>
+      </section>
+
+      <section class="breathing-card">
+        <h3>Guided breathing</h3>
+        <div id="breathCircle"></div>
+        <p id="breathText">Ready when you are</p>
+        <button id="breathBtn">Start exercise</button>
+      </section>
+
+    </main>
+
+    <footer>
+      NeuroSense AI · Powered by Presage SmartSpectra
+      <p>
+        General wellness information only.
+        Not intended for diagnosis or treatment.
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="dist/renderer.bundle.js"></script>
+
+</body>
+</html>
