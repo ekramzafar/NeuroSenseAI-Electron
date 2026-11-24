@@ -1,12 +1,12 @@
-\# NeuroSense AI 🧠
+# NeuroSense AI 🧠
 
 
 
-\### AI-Powered Desktop Wellness Insights Application
+### AI-Powered Desktop Wellness Insights Application
 
 
 
-\*\*NeuroSense AI\*\* is an experimental desktop application built with Electron and the Presage SmartSpectra SDK. It explores camera-based physiological signal processing to provide breathing and cardiovascular insights through a desktop interface.
+**NeuroSense AI** is an experimental desktop application built with Electron and the Presage SmartSpectra SDK. It explores camera-based physiological signal processing to provide breathing and cardiovascular insights through a desktop interface.
 
 
 
@@ -14,55 +14,55 @@ The project combines desktop application development, camera integration, and re
 
 
 
-\---
+---
 
 
 
-\## 📌 Table of Contents
+ ## 📌 Table of Contents
 
 
 
-\- \[Overview](#-overview)
+- [Overview](#-overview)
 
-\- \[Project Objectives](#-project-objectives)
+- [Project Objectives](#-project-objectives)
 
-\- \[Features](#-features)
+- [Features](#-features)
 
-\- \[How It Works](#-how-it-works)
+- [How It Works](#-how-it-works)
 
-\- \[Technology Stack](#️-technology-stack)
+- [Technology Stack](#️-technology-stack)
 
-\- \[Project Structure](#-project-structure)
+- [Project Structure](#-project-structure)
 
-\- \[Installation and Setup](#-installation-and-setup)
+- [Installation and Setup](#-installation-and-setup)
 
-\- \[Environment Configuration](#-environment-configuration)
+- [Environment Configuration](#-environment-configuration)
 
-\- \[Running the Application](#-running-the-application)
+- [Running the Application](#-running-the-application)
 
-\- \[Supported Physiological Metrics](#-supported-physiological-metrics)
+- [Supported Physiological Metrics](#-supported-physiological-metrics)
 
-\- \[Camera Requirements](#-camera-requirements)
+- [Camera Requirements](#-camera-requirements)
 
-\- \[Troubleshooting](#-troubleshooting)
+- [Troubleshooting](#-troubleshooting)
 
-\- \[Privacy and Security](#-privacy-and-security)
+- [Privacy and Security](#-privacy-and-security)
 
-\- \[Limitations](#-limitations)
+- [Limitations](#-limitations)
 
-\- \[Future Improvements](#-future-improvements)
+- [Future Improvements](#-future-improvements)
 
-\- \[Disclaimer](#️-disclaimer)
+- [Disclaimer](#️-disclaimer)
 
-\- \[Author](#-author)
-
-
-
-\---
+- [Author](#-author)
 
 
 
-\## 🚀 Overview
+---
+
+
+
+## 🚀 Overview
 
 
 
@@ -78,7 +78,7 @@ The desktop interface is developed using Electron, allowing JavaScript-based app
 
 
 
-\### Why NeuroSense AI?
+### Why NeuroSense AI?
 
 
 
@@ -90,23 +90,23 @@ The project focuses on:
 
 
 
-\- Exploring camera-based physiological measurement.
+- Exploring camera-based physiological measurement.
 
-\- Integrating a real-time processing SDK into an Electron application.
+- Integrating a real-time processing SDK into an Electron application.
 
-\- Understanding breathing and cardiovascular metric extraction.
+- Understanding breathing and cardiovascular metric extraction.
 
-\- Building a desktop interface for wellness-oriented insights.
+- Building a desktop interface for wellness-oriented insights.
 
-\- Investigating the challenges of camera quality, lighting, and real-time processing.
-
-
-
-\---
+- Investigating the challenges of camera quality, lighting, and real-time processing.
 
 
 
-\## 🎯 Project Objectives
+---
+
+
+
+## 🎯 Project Objectives
 
 
 
@@ -114,103 +114,103 @@ The main objectives of NeuroSense AI are:
 
 
 
-1\. Develop a desktop application using Electron.
+1. Develop a desktop application using Electron.
 
-2\. Integrate the Presage SmartSpectra SDK.
+2. Integrate the Presage SmartSpectra SDK.
 
-3\. Process live camera input for physiological analysis.
+3. Process live camera input for physiological analysis.
 
-4\. Support breathing and cardiovascular metric processing.
+4. Support breathing and cardiovascular metric processing.
 
-5\. Handle SDK validation and processing status.
+5. Handle SDK validation and processing status.
 
-6\. Explore real-time camera performance and measurement quality.
+6. Explore real-time camera performance and measurement quality.
 
-7\. Build a foundation for future wellness insight features.
+7. Build a foundation for future wellness insight features.
 
 
 
-\---
+---
 
 
 
-\## ✨ Features
+## ✨ Features
 
 
 
-\### 🖥️ Desktop Application
+### 🖥️ Desktop Application
 
 
 
-\- Built using Electron.
+- Built using Electron.
 
-\- Uses a JavaScript-based desktop architecture.
+- Uses a JavaScript-based desktop architecture.
 
-\- Provides a desktop environment for camera-based processing.
+- Provides a desktop environment for camera-based processing.
 
 
 
-\### 📷 Camera Integration
+### 📷 Camera Integration
 
 
 
-\- Captures live camera input.
+- Captures live camera input.
 
-\- Supports camera-based physiological signal processing.
+- Supports camera-based physiological signal processing.
 
-\- Allows camera selection through the available camera interface.
+- Allows camera selection through the available camera interface.
 
 
 
-\### 🔬 SmartSpectra SDK Integration
+### 🔬 SmartSpectra SDK Integration
 
 
 
-\- Integrated with the Presage SmartSpectra Node SDK.
+- Integrated with the Presage SmartSpectra Node SDK.
 
-\- Uses the SDK's supported processing pipeline.
+- Uses the SDK's supported processing pipeline.
 
-\- Handles supported physiological metric data.
+- Handles supported physiological metric data.
 
 
 
-\### 🫁 Breathing Metrics
+### 🫁 Breathing Metrics
 
 
 
-\- Supports breathing-related metric processing.
+- Supports breathing-related metric processing.
 
-\- Requests the configured breathing metric group.
+- Requests the configured breathing metric group.
 
 
 
-\### ❤️ Cardiovascular Metrics
+### ❤️ Cardiovascular Metrics
 
 
 
-\- Supports cardiovascular metric processing.
+- Supports cardiovascular metric processing.
 
-\- Requests the configured cardiovascular metric group.
+- Requests the configured cardiovascular metric group.
 
 
 
-\### ⚡ Real-Time Processing
+### ⚡ Real-Time Processing
 
 
 
-\- Designed for live camera processing.
+- Designed for live camera processing.
 
-\- Handles SDK frame processing and validation.
+- Handles SDK frame processing and validation.
 
-\- Provides a foundation for real-time wellness insights.
+- Provides a foundation for real-time wellness insights.
 
 
 
-\---
+---
 
 
 
-\## 🔄 How It Works
+## 🔄 How It Works
 
 
 
@@ -256,27 +256,27 @@ Physiological Metric Processing
 
 &#x20;    ▼
 
-Breathing \& Cardiovascular Insights
+Breathing & Cardiovascular Insights
 
 ```
 
 
 
-\### Processing Workflow
+### Processing Workflow
 
 
 
-1\. The application initializes the Electron desktop environment.
+1. The application initializes the Electron desktop environment.
 
-2\. The renderer accesses the camera stream.
+2. The renderer accesses the camera stream.
 
-3\. Camera frames are passed through the SmartSpectra integration.
+3. Camera frames are passed through the SmartSpectra integration.
 
-4\. The SDK performs its supported processing and validation.
+4. The SDK performs its supported processing and validation.
 
-5\. The application handles available metric data.
+5. The application handles available metric data.
 
-6\. The interface can present supported physiological insights.
+6. The interface can present supported physiological insights.
 
 
 
@@ -284,11 +284,11 @@ Actual metric availability depends on SDK processing, camera conditions, and val
 
 
 
-\---
+---
 
 
 
-\## 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 
 
@@ -314,11 +314,11 @@ Actual metric availability depends on SDK processing, camera conditions, and val
 
 
 
-\---
+---
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -354,7 +354,7 @@ NeuroSenseAI-Electron/
 
 
 
-\### File Responsibilities
+### File Responsibilities
 
 
 
@@ -382,15 +382,15 @@ NeuroSenseAI-Electron/
 
 
 
-\*\*Note:\*\* The renderer backup files are development backups and are not required for the application's normal execution. Keep them only if you need them for recovery.
+**Note:** The renderer backup files are development backups and are not required for the application's normal execution. Keep them only if you need them for recovery.
 
 
 
-\---
+---
 
 
 
-\## ⚙️ Installation and Setup
+## ⚙️ Installation and Setup
 
 
 
@@ -398,7 +398,7 @@ Follow these steps to run NeuroSense AI locally.
 
 
 
-\### Prerequisites
+### Prerequisites
 
 
 
@@ -406,15 +406,15 @@ Install the following before starting:
 
 
 
-\- Node.js
+- Node.js
 
-\- npm
+- npm
 
-\- Git
+- Git
 
-\- A compatible webcam or virtual camera
+- A compatible webcam or virtual camera
 
-\- A valid Presage SmartSpectra API key
+- A valid Presage SmartSpectra API key
 
 
 
@@ -434,11 +434,11 @@ git --version
 
 
 
-\---
+---
 
 
 
-\### 1. Clone the Repository
+### 1. Clone the Repository
 
 
 
@@ -462,11 +462,11 @@ cd NeuroSenseAI-Electron
 
 
 
-\---
+---
 
 
 
-\### 2. Install Dependencies
+### 2. Install Dependencies
 
 
 
@@ -486,11 +486,11 @@ This installs the packages defined in `package.json`.
 
 
 
-\---
+---
 
 
 
-\## 🔐 Environment Configuration
+## 🔐 Environment Configuration
 
 
 
@@ -498,7 +498,7 @@ NeuroSense AI requires a valid Presage API key for SDK initialization.
 
 
 
-\### Create an Environment File
+### Create an Environment File
 
 
 
@@ -512,7 +512,7 @@ Add the following:
 
 ```env
 
-PRESAGE\_API\_KEY=your\_presage\_api\_key
+PRESAGE_API_KEY=your_presage_api_key
 
 ```
 
@@ -522,17 +522,17 @@ Replace the placeholder with your actual API key.
 
 
 
-\### Important Security Notes
+### Important Security Notes
 
 
 
-\- Never commit your `.env` file.
+- Never commit your `.env` file.
 
-\- Never expose your API key in screenshots or public logs.
+- Never expose your API key in screenshots or public logs.
 
-\- Do not hardcode credentials into source files.
+- Do not hardcode credentials into source files.
 
-\- Keep environment variables private.
+- Keep environment variables private.
 
 
 
@@ -540,15 +540,15 @@ The project uses environment configuration during the build process.
 
 
 
-\---
+---
 
 
 
-\## ▶️ Running the Application
+## ▶️ Running the Application
 
 
 
-\### Step 1: Build the Application
+### Step 1: Build the Application
 
 
 
@@ -568,7 +568,7 @@ This executes the configured build script and generates the renderer bundle.
 
 
 
-\### Step 2: Start NeuroSense AI
+### Step 2: Start NeuroSense AI
 
 
 
@@ -588,7 +588,7 @@ The application should launch in an Electron desktop window.
 
 
 
-\### Development Workflow
+### Development Workflow
 
 
 
@@ -606,11 +606,11 @@ npm start
 
 
 
-\---
+---
 
 
 
-\## 🔬 Supported Physiological Metrics
+## 🔬 Supported Physiological Metrics
 
 
 
@@ -636,17 +636,17 @@ Metric output may depend on:
 
 
 
-\- SDK configuration
+- SDK configuration
 
-\- Camera frame quality
+- Camera frame quality
 
-\- Face visibility
+- Face visibility
 
-\- Lighting conditions
+- Lighting conditions
 
-\- SDK validation status
+- SDK validation status
 
-\- Processing availability
+- Processing availability
 
 
 
@@ -654,11 +654,11 @@ The application should only display values that are actually returned by the SDK
 
 
 
-\---
+---
 
 
 
-\## 📷 Camera Requirements
+## 📷 Camera Requirements
 
 
 
@@ -670,23 +670,23 @@ For better processing conditions:
 
 
 
-\- Use a camera with a clear view of the face.
+- Use a camera with a clear view of the face.
 
-\- Ensure sufficient and consistent lighting.
+- Ensure sufficient and consistent lighting.
 
-\- Keep the face centered in the camera frame.
+- Keep the face centered in the camera frame.
 
-\- Avoid excessive movement.
+- Avoid excessive movement.
 
-\- Maintain a stable camera position.
+- Maintain a stable camera position.
 
-\- Avoid strong backlighting.
+- Avoid strong backlighting.
 
-\- Allow the SDK to complete its validation process.
+- Allow the SDK to complete its validation process.
 
 
 
-\### Camera Performance
+### Camera Performance
 
 
 
@@ -694,17 +694,17 @@ Camera frame rate and processing performance may vary depending on:
 
 
 
-\- Camera hardware
+- Camera hardware
 
-\- Camera resolution
+- Camera resolution
 
-\- USB or wireless connection
+- USB or wireless connection
 
-\- Virtual camera software
+- Virtual camera software
 
-\- System performance
+- System performance
 
-\- SDK processing requirements
+- SDK processing requirements
 
 
 
@@ -712,15 +712,15 @@ A higher camera frame rate does not automatically guarantee accurate physiologic
 
 
 
-\---
+---
 
 
 
-\## 🧰 Troubleshooting
+## 🧰 Troubleshooting
 
 
 
-\### Application Does Not Start
+### Application Does Not Start
 
 
 
@@ -760,7 +760,7 @@ npm start
 
 
 
-\### API Key or SDK Initialization Error
+### API Key or SDK Initialization Error
 
 
 
@@ -768,17 +768,17 @@ Check that:
 
 
 
-\- The `.env` file exists.
+- The `.env` file exists.
 
-\- The API key is valid.
+- The API key is valid.
 
-\- The environment variable name is correct.
+- The environment variable name is correct.
 
-\- The application is being launched through the configured npm scripts.
+- The application is being launched through the configured npm scripts.
 
 
 
-\### Camera Not Detected
+### Camera Not Detected
 
 
 
@@ -786,17 +786,17 @@ Check that:
 
 
 
-\- The camera is connected.
+- The camera is connected.
 
-\- Camera permissions are enabled.
+- Camera permissions are enabled.
 
-\- Another application is not exclusively using the camera.
+- Another application is not exclusively using the camera.
 
-\- The correct camera device is selected.
+- The correct camera device is selected.
 
 
 
-\### Poor Camera Validation
+### Poor Camera Validation
 
 
 
@@ -804,21 +804,21 @@ If the SDK reports insufficient lighting or poor face visibility:
 
 
 
-\- Increase the lighting.
+- Increase the lighting.
 
-\- Move closer to the camera.
+- Move closer to the camera.
 
-\- Keep the face fully visible.
+- Keep the face fully visible.
 
-\- Avoid sudden movements.
-
-
-
-\---
+- Avoid sudden movements.
 
 
 
-\## 🔒 Privacy and Security
+---
+
+
+
+## 🔒 Privacy and Security
 
 
 
@@ -830,15 +830,15 @@ Users should:
 
 
 
-\- Use the application in a private environment.
+- Use the application in a private environment.
 
-\- Avoid sharing sensitive camera recordings.
+- Avoid sharing sensitive camera recordings.
 
-\- Protect API credentials.
+- Protect API credentials.
 
-\- Review SDK data-handling policies.
+- Review SDK data-handling policies.
 
-\- Avoid publishing personal physiological measurements.
+- Avoid publishing personal physiological measurements.
 
 
 
@@ -846,11 +846,11 @@ The application's data handling depends on the implemented SDK integration and c
 
 
 
-\---
+---
 
 
 
-\## ⚠️ Limitations
+## ⚠️ Limitations
 
 
 
@@ -862,17 +862,17 @@ Potential limitations include:
 
 
 
-\- Camera-dependent measurement quality.
+- Camera-dependent measurement quality.
 
-\- Sensitivity to lighting and movement.
+- Sensitivity to lighting and movement.
 
-\- Variable camera frame rates.
+- Variable camera frame rates.
 
-\- SDK validation requirements.
+- SDK validation requirements.
 
-\- Limited metric availability.
+- Limited metric availability.
 
-\- Dependence on compatible hardware and SDK configuration.
+- Dependence on compatible hardware and SDK configuration.
 
 
 
@@ -880,11 +880,11 @@ The application should not be considered a validated physiological monitoring sy
 
 
 
-\---
+---
 
 
 
-\## 🚧 Future Improvements
+## 🚧 Future Improvements
 
 
 
@@ -892,21 +892,21 @@ Potential future development areas include:
 
 
 
-\- Improved camera performance monitoring.
+- Improved camera performance monitoring.
 
-\- Better camera selection and configuration.
+- Better camera selection and configuration.
 
-\- Enhanced real-time metric visualization.
+- Enhanced real-time metric visualization.
 
-\- Historical measurement dashboards.
+- Historical measurement dashboards.
 
-\- Improved error handling and SDK lifecycle management.
+- Improved error handling and SDK lifecycle management.
 
-\- User-friendly validation feedback.
+- User-friendly validation feedback.
 
-\- More robust application packaging.
+- More robust application packaging.
 
-\- Additional wellness insight features.
+- Additional wellness insight features.
 
 
 
@@ -914,11 +914,11 @@ These are planned areas for exploration and are not necessarily implemented in t
 
 
 
-\---
+---
 
 
 
-\## ⚕️ Disclaimer
+## ⚕️ Disclaimer
 
 
 
@@ -926,7 +926,7 @@ NeuroSense AI is an experimental software and wellness technology project.
 
 
 
-It is \*\*not a medical device\*\* and is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+It is **not a medical device** and is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
 
 
 
@@ -938,15 +938,15 @@ Do not use this application as a substitute for professional medical advice or c
 
 
 
-\---
+---
 
 
 
-\## 👨‍💻 Author
+## 👨‍💻 Author
 
 
 
-\*\*Ekram Zafar\*\*
+**Ekram Zafar**
 
 
 
@@ -954,15 +954,15 @@ B.Tech in Computer Science and Engineering
 
 
 
-GitHub: \[@ekramzafar](https://github.com/ekramzafar)
+GitHub: [@ekramzafar](https://github.com/ekramzafar)
 
 
 
-\---
+---
 
 
 
-\## ⭐ Support
+## ⭐ Support
 
 
 
@@ -974,9 +974,9 @@ Contributions, suggestions, and feedback are welcome.
 
 
 
-\---
+---
 
 
 
-\*\*Built with curiosity, code, and a vision for AI-powered wellness.\*\* 🧠
+**Built with curiosity, code, and a vision for AI-powered wellness.** 🧠
 
